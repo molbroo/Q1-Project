@@ -1,0 +1,33 @@
+img.exercises {
+height: 300px;
+}
+.plan, .plan2 {
+display: flex;
+}
+h2, h1, h3, h4{
+  text-align: center;
+}
+.parallax-img{
+  height: 900px;
+}
+h1, h2, h3, h4, h5, p, a, li {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+}
+.navig, p{
+  font-size: 20px;
+}
+a.brand-logo{
+  font-size: 35px;
+  margin-left: 20px;
+}
+.dumbimg{
+  height: 40px;
+  margin: 5px 5px 0 5px;
+}
+.logos{
+  width: 25px;
+}
+.parallax-container {
+  height: 500px;
+}
