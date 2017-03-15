@@ -59,7 +59,7 @@ iframe{
 .table-of-contents{
   position: fixed;
   bottom: 50px;
-  right: 30px;
+  right: 10px;
   font-size: 20px;
 }
 /*Media queries*/

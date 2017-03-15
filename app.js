@@ -52,7 +52,7 @@ $(document).ready(function(){
     var picture14 = []
     var picture15 = []
     var picture16 = []
-    var url = "https://wger.de/api/v2/"
+    var url = "https://galvanize-cors.herokuapp.com/https://wger.de/api/v2/"
     if (days === "One"){
       $.get(url + "exercise/111/")
       .then(function(data){
