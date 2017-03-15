@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $(".button-collapse").sideNav();
   $(".parallax").parallax();
+  $('.scrollspy').scrollSpy();
   var days = ""
   $(".days-workout").click(function(){
     days = $(this).text()

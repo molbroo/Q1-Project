@@ -56,6 +56,12 @@ iframe{
 .vertical{
   display: none;
 }
+.table-of-contents{
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  font-size: 20px;
+}
 /*Media queries*/
 @media (max-width: 900px) {
   .horiz{
