@@ -86,7 +86,7 @@ $(document).ready(function(){
         })
       })
       function updatePage(picture1, name1){
-        $(".Day-1").append("<h1>Monday</h1>")
+        $(".Day-1").append("<h1>Day One</h1>")
         $(".one").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture1 +"'><span class='card-title'>1</span><a href = 'exercises/squats.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name1 + "</h3><h3>5x5</h3></div></div></div>")
       }
       function updatePage2(picture2, name2){
@@ -159,7 +159,7 @@ $(document).ready(function(){
         })
       })
       function updatePage(picture1, name1){
-        $(".Day-1").append("<h1>Monday</h1>")
+        $(".Day-1").append("<h1>Day One</h1>")
         $(".one").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture1 +"'><span class='card-title'>1</span><a href = 'exercises/squats.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name1 + "</h3><h3>5x5</h3></div></div></div>")
       }
       function updatePage2(picture2, name2){
@@ -169,7 +169,8 @@ $(document).ready(function(){
         $(".one").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class  = 'exercises' src='" + picture3 +"'><span class='card-title'>1</span><a href = 'exercises/chinup.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name3 + "</h3><h3>5 x failure</h3></div></div></div>")
       }
       function updatePage4(picture4, name4){
-        $(".Day-2").append("<h1>Wednesday</h1>")
+        $(".Day-2").append("<h1><img class = 'rest-pic' src = 'icons/rest.jpg'>Rest<img class = 'rest-pic' src = 'icons/rest.jpg'></h1>")
+        $(".Day-2").append("<h1>Day Two</h1>")
         $(".two").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture4 +"'><span class='card-title'>1</span><a href = 'exercises/dl.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name4 + "</h3><h3>5x5</h3></div></div></div>")
       }
       function updatePage5(picture5, name5){
@@ -271,7 +272,7 @@ $(document).ready(function(){
         })
       })
       function updatePage(picture1, name1){
-        $(".Day-1").append("<h1>Monday</h1>")
+        $(".Day-1").append("<h1>Day One</h1>")
         $(".one").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture1 +"'><span class='card-title'>1</span><a href = 'exercises/squats.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name1 + "</h3><h3>3x5</h3></div></div></div>")
       }
       function updatePage2(picture2, name2){
@@ -281,7 +282,8 @@ $(document).ready(function(){
         $(".one").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture3 +"'><span class='card-title'>1</span><a href = 'exercises/dl.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name3 + "</h3><h3>1x5</h3></div></div></div>")
       }
       function updatePage4(picture4, name4){
-        $(".Day-2").append("<h1>Wednesday</h1>")
+        $(".Day-2").append("<h1><img class = 'rest-pic' src = 'icons/rest.jpg'>Rest<img class = 'rest-pic' src = 'icons/rest.jpg'></h1>")
+        $(".Day-2").append("<h1>Day Two</h1>")
         $(".two").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture4 +"'><span class='card-title'>1</span><a href = 'exercises/squats.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name4 + "</h3><h3>3x5</h3></div></div></div>")
       }
       function updatePage5(picture5, name5){
@@ -291,7 +293,8 @@ $(document).ready(function(){
         $(".two").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture6 +"'><span class='card-title'>1</span><a href = 'exercises/rows.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name6 + "</h3><h3>3x5</h3></div></div></div>")
       }
       function updatePage7(picture7, name7){
-        $(".Day-3").append("<h1>Friday</h1>")
+        $(".Day-3").append("<h1><img class = 'rest-pic' src = 'icons/rest.jpg'>Rest<img class = 'rest-pic' src = 'icons/rest.jpg'></h1>")
+        $(".Day-3").append("<h1>Day Three</h1>")
         $(".three").append("<div class='col s6 m4'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture7 +"'><span class='card-title'>1</span><a href = 'exercises/squats.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h3>" + name7 + "</h3><h3>3x5</h3></div></div></div>")
       }
       function updatePage8(picture8, name8){
@@ -463,7 +466,7 @@ $(document).ready(function(){
         })
       })
       function updatePage(picture1, name1){
-        $(".Day-1").append("<h1>Monday</h1>")
+        $(".Day-1").append("<h1>Day One</h1>")
         $(".one").append("<div class='col s6 m3'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture1 +"'><span class='card-title'>1</span><a href = 'exercises/squats.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h4>" + name1 + "</h4><h4>3x5</h4></div></div></div>")
       }
       function updatePage2(picture2, name2){
@@ -476,7 +479,7 @@ $(document).ready(function(){
         $(".one").append("<div class='col s6 m3'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture4 +"'><span class='card-title'>1</span><a href = 'exercises/legcurls.html'class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h4>" + name4 + "</h4><h4>3x12</h4></div></div></div>")
       }
       function updatePage5(picture5, name5){
-        $(".Day-2").append("<h1>Tuesday</h1>")
+        $(".Day-2").append("<h1>Day Two</h1>")
         $(".two").append("<div class='col s6 m3'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture5 +"'><span class='card-title'>1</span><a href = 'exercises/chinup.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h4>" + name5 + "</h4><h4>3x5</h4></div></div></div>")
       }
       function updatePage6(picture6, name6){
@@ -489,7 +492,8 @@ $(document).ready(function(){
         $(".two").append("<div class='col s6 m3'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture8 +"'><span class='card-title'>1</span><a href = 'exercises/pushup.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h4>" + name8 + "</h4><h4>3 x failure</h4></div></div></div>")
       }
       function updatePage9(picture9, name9){
-        $(".Day-3").append("<h1>Thursday</h1>")
+        $(".Day-3").append("<h1><img class = 'rest-pic' src = 'icons/rest.jpg'>Rest<img class = 'rest-pic' src = 'icons/rest.jpg'></h1>")
+        $(".Day-3").append("<h1>Day Three</h1>")
         $(".three").append("<div class='col s6 m3'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture9 +"'><span class='card-title'>1</span><a href = 'exercises/dl.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h4>" + name9 + "</h4><h4>3x5</h4></div></div></div>")
       }
       function updatePage10(picture9, name9){
@@ -502,7 +506,7 @@ $(document).ready(function(){
         $(".three").append("<div class='col s6 m3'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture12 +"'><span class='card-title'>1</span><a href = 'exercises/legcurls.html'class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h4>" + name12 + "</h4><h4>3x12</h4></div></div></div>")
       }
       function updatePage13(picture13, name13){
-        $(".Day-4").append("<h1>Friday</h1>")
+        $(".Day-4").append("<h1>Day Four</h1>")
         $(".four").append("<div class='col s6 m3'><div class='card hoverable'><div class='card-image'><img class = 'exercises' src='" + picture13 +"'><span class='card-title'>1</span><a href = 'exercises/chinup.html' class='btn-floating halfway-fab waves-effect waves-light red'><i class='material-icons'>add</i></a></div><div class='card-content'><h4>" + name13 + "</h4><h4>3x5</h4></div></div></div>")
       }
       function updatePage14(picture14, name14){

@@ -50,7 +50,7 @@ p {
 .space-links{
   margin-right: 5px;
 }
-iframe{
+.horiz iframe{
   margin-left: 10px;
 }
 .vertical{
@@ -71,7 +71,10 @@ iframe{
 a:hover {
   color: firebrick;
 }
+.rest-pic{
+  width: 70px;
 
+}
 
 /*Media queries*/
 @media (max-width: 900px) {
