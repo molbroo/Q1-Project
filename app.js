@@ -1,7 +1,8 @@
+/* global $ */
 $(document).ready(function(){
-  $(".button-collapse").sideNav();
-  $(".parallax").parallax();
-  $('.scrollspy').scrollSpy();
+  $(".button-collapse").sideNav()
+  $(".parallax").parallax()
+  $(".scrollspy").scrollSpy()
   var days = ""
   $(".days-workout").click(function(){
     days = $(this).text()
@@ -52,7 +53,7 @@ $(document).ready(function(){
     var picture14 = []
     var picture15 = []
     var picture16 = []
-    var url = "https://galvanize-cors.herokuapp.com/https://wger.de/api/v2/"
+    var url = "https://wger.de/api/v2/"
     if (days === "One"){
       $.get(url + "exercise/111/")
       .then(function(data){

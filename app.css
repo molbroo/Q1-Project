@@ -58,10 +58,21 @@ iframe{
 }
 .table-of-contents{
   position: fixed;
-  bottom: 50px;
+  bottom: 250px;
   right: 10px;
   font-size: 20px;
 }
+.much-weight{
+  margin-right: 180px;
+}
+.equipmentpic {
+  height: 400px;
+}
+a:hover {
+  color: firebrick;
+}
+
+
 /*Media queries*/
 @media (max-width: 900px) {
   .horiz{
@@ -76,12 +87,9 @@ iframe{
   .parallax-container{
     height: 400px;
   }
-  .parallax-img{
-
-  }
 
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .horiz{
     display: none;
   }
@@ -94,7 +102,7 @@ iframe{
   .parallax-container{
     height: 300px;
   }
-  .parallax-img{
-
+  .much-weight {
+    margin-right: 0
   }
 }
