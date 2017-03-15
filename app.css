@@ -14,8 +14,10 @@ h1, h2, h3, h4, h5, p, a, li {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
 }
-.navig, p{
-  font-size: 20px;
+a.navig, li.navig{
+  text-align: center;
+  margin-top: 7px;
+  font-size: 25px;
 }
 a.brand-logo{
   font-size: 35px;
@@ -26,8 +28,67 @@ a.brand-logo{
   margin: 5px 5px 0 5px;
 }
 .logos{
-  width: 25px;
+  width: 30px;
 }
 .parallax-container {
   height: 500px;
+}
+p {
+  font-size: 25px;
+}
+.descrip{
+  font-size: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.linked {
+  font-size: 20px;
+}
+.foot{
+  height: 150px;
+}
+.space-links{
+  margin-right: 5px;
+}
+iframe{
+  margin-left: 10px;
+}
+.vertical{
+  display: none;
+}
+/*Media queries*/
+@media (max-width: 900px) {
+  .horiz{
+    display: none;
+  }
+  .vertical{
+    display: inline;
+  }
+  iframe{
+    margin: 0
+  }
+  .parallax-container{
+    height: 400px;
+  }
+  .parallax-img{
+
+  }
+
+}
+@media (max-width: 550px) {
+  .horiz{
+    display: none;
+  }
+  .vertical{
+    display: inline;
+  }
+  iframe{
+    margin: 0
+  }
+  .parallax-container{
+    height: 300px;
+  }
+  .parallax-img{
+
+  }
 }

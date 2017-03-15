@@ -6,6 +6,8 @@ $(document).ready(function(){
     days = $(this).text()
     console.log(days)
     getPlan()
+    
+
     $(".Day-1").empty()
     $(".Day-2").empty()
     $(".Day-3").empty()

@@ -22,6 +22,7 @@ $(document).ready(function(){
       })
       console.log(musclesSecName)
       console.log(musclesPrimeName)
+      console.log(description1)
       updatePage(description1, musclesPrimeName, musclesSecName)
     })
     function updatePage(description1, musclesPrimeName, musclesSecName){
