@@ -49,8 +49,11 @@ a:hover {
 }
 
 /*display features*/
-.plan, .plan2 {
-display: flex;
+#sidenav-overlay{
+  z-index: 0 !important;
+}
+li {
+  display: auto;
 }
 .parallax-img{
   height: 900px;
