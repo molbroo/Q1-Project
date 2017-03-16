@@ -79,6 +79,9 @@ display: flex;
 .much-weight{
   margin-right: 180px;
 }
+.exercises-display{
+  display: none;
+}
 
 /*Media queries*/
 @media (max-width: 992px){
