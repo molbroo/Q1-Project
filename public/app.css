@@ -1,0 +1,140 @@
+/* picture styles */
+img.exercises {
+height: 300px;
+}
+.dumbimg{
+  height: 40px;
+  margin: 5px 5px 0 5px;
+}
+.equipmentpic {
+  height: 400px;
+}
+.rest-pic{
+  width: 70px;
+}
+
+/* font */
+h2, h1, h3, h4{
+  text-align: center;
+}
+a.navig, li.navig{
+  text-align: center;
+  margin-top: 7px;
+  font-size: 25px;
+}
+h1, h2, h3, h4, h5, p, a, li {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+}
+p {
+  font-size: 25px;
+}
+a.brand-logo{
+  font-size: 35px;
+  margin-left: 20px;
+}
+.logos{
+  width: 30px;
+}
+.descrip{
+  font-size: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.linked {
+  font-size: 20px;
+}
+a:hover {
+  color: firebrick !important;
+}
+
+/*display features*/
+.plan, .plan2 {
+display: flex;
+}
+.parallax-img{
+  height: 900px;
+}
+.parallax-container {
+  height: 500px;
+}
+.foot{
+  height: 150px;
+}
+.space-links{
+  margin-right: 5px;
+}
+.horiz iframe{
+  margin-left: 10px;
+}
+.vertical{
+  display: none;
+}
+.table-of-contents{
+  position: fixed;
+  bottom: 250px;
+  right: 10px;
+  font-size: 20px;
+}
+.much-weight{
+  margin-right: 180px;
+}
+
+/*Media queries*/
+@media (max-width: 992px){
+  .foot{
+    height: auto;
+  }
+}
+@media (max-width: 900px) {
+  .horiz{
+    display: none;
+  }
+  .vertical{
+    display: inline;
+  }
+  iframe{
+    margin: 0
+  }
+  .parallax-container{
+    height: 400px;
+  }
+  .foot{
+    height: auto;
+  }
+
+}
+@media (max-width: 603px) {
+  .horiz{
+    display: none;
+  }
+  .vertical{
+    display: inline;
+  }
+  iframe{
+    margin: 0
+  }
+  .parallax-container{
+    height: 300px;
+  }
+  .much-weight {
+    margin-right: 0
+  }
+  .foot{
+    height: auto;
+  }
+
+}
+@media (max-width: 400px){
+  .foot{
+    height: auto;
+  }
+  a.brand-logo{
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .dumbimg{
+    height: 25px;
+  }
+
+}
