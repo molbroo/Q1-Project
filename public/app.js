@@ -8,7 +8,6 @@ $(document).ready(function(){
 var days = ""
 $(".days-workout").click(function(){
   days = $(this).text()
-  console.log(days)
   getPlan()
   $(".Day-1").empty()
   $(".Day-2").empty()
@@ -101,7 +100,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=111")
       .then(function(data) {
         picture1.push(data.results[1].image)
-        console.log(picture1)
         updatePage(picture1, name1)
       })
     })
@@ -111,7 +109,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=192")
       .then(function(data){
         picture2.push(data.results[1].image)
-        console.log(picture2)
         updatePage2(picture2, name2)
       })
     })
@@ -121,18 +118,15 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=181")
       .then(function(data){
         picture3.push(data.results[1].image)
-        console.log(picture3)
         updatePage3(picture3, name3)
       })
     })
     $.get(url + "exercise/105/")
     .then(function(data){
       name4.push(data.name)
-      console.log(name4)
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture4.push(data.results[0].image)
-        console.log(picture4)
         updatePage4(picture4, name4)
       })
     })
@@ -142,7 +136,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=119")
       .then(function(data){
         picture5.push(data.results[1].image)
-        console.log(picture5)
         updatePage5(picture5, name5)
       })
     })
@@ -152,7 +145,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture6.push(data.results[1].image)
-        console.log(picture6)
         updatePage6(picture6, name6)
       })
     })
@@ -186,7 +178,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=111")
       .then(function(data) {
         picture1.push(data.results[1].image)
-        console.log(picture1)
         updatePage(picture1, name1)
       })
     })
@@ -196,7 +187,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=119")
       .then(function(data){
         picture2.push(data.results[1].image)
-        console.log(picture2)
         updatePage2(picture2, name2)
       })
     })
@@ -206,7 +196,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture3.push(data.results[0].image)
-        console.log(picture3)
         updatePage3(picture3, name3)
       })
     })
@@ -216,7 +205,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=111")
       .then(function(data){
         picture4.push(data.results[1].image)
-        console.log(picture4)
         updatePage4(picture4, name4)
       })
     })
@@ -226,7 +214,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=192")
       .then(function(data){
         picture5.push(data.results[1].image)
-        console.log(picture5)
         updatePage5(picture5, name5)
       })
     })
@@ -236,7 +223,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture6.push(data.results[1].image)
-        console.log(picture6)
         updatePage6(picture6, name6)
       })
     })
@@ -246,7 +232,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=111")
       .then(function(data){
         picture7.push(data.results[1].image)
-        console.log(picture7)
         updatePage7(picture7, name7)
       })
     })
@@ -256,7 +241,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=119")
       .then(function(data){
         picture8.push(data.results[1].image)
-        console.log(picture8)
         updatePage8(picture8, name8)
       })
     })
@@ -266,7 +250,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=181")
       .then(function(data){
         picture9.push(data.results[1].image)
-        console.log(picture9)
         updatePage9(picture9, name9)
       })
     })
@@ -310,7 +293,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=111")
       .then(function(data) {
         picture1.push(data.results[1].image)
-        console.log(picture1)
         updatePage(picture1, name1)
       })
     })
@@ -320,7 +302,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=113")
       .then(function(data){
         picture2.push(data.results[1].image)
-        console.log(picture2)
         updatePage2(picture2, name2)
       })
     })
@@ -330,7 +311,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture3.push(data.results[0].image)
-        console.log(picture3)
         updatePage3(picture3, name3)
       })
     })
@@ -340,7 +320,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=154")
       .then(function(data){
         picture4.push(data.results[1].image)
-        console.log(picture4)
         updatePage4(picture4, name4)
       })
     })
@@ -350,7 +329,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=181")
       .then(function(data){
         picture5.push(data.results[1].image)
-        console.log(picture5)
         updatePage5(picture5, name5)
       })
     })
@@ -360,7 +338,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=192")
       .then(function(data){
         picture6.push(data.results[1].image)
-        console.log(picture6)
         updatePage6(picture6, name6)
       })
     })
@@ -370,7 +347,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture7.push(data.results[1].image)
-        console.log(picture7)
         updatePage7(picture7, name7)
       })
     })
@@ -380,7 +356,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=195")
       .then(function(data){
         picture8.push(data.results[1].image)
-        console.log(picture8)
         updatePage8(picture8, name8)
       })
     })
@@ -390,7 +365,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture9.push(data.results[0].image)
-        console.log(picture9)
         updatePage9(picture9, name9)
       })
     })
@@ -400,7 +374,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=113")
       .then(function(data){
         picture10.push(data.results[1].image)
-        console.log(picture10)
         updatePage10(picture10, name10)
       })
     })
@@ -410,7 +383,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=191")
       .then(function(data){
         picture11.push(data.results[1].image)
-        console.log(picture11)
         updatePage11(picture11, name11)
       })
     })
@@ -420,7 +392,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=154")
       .then(function(data){
         picture12.push(data.results[1].image)
-        console.log(picture12)
         updatePage12(picture12, name12)
       })
     })
@@ -430,7 +401,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=181")
       .then(function(data){
         picture13.push(data.results[1].image)
-        console.log(picture13)
         updatePage13(picture13, name13)
       })
     })
@@ -440,7 +410,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=119")
       .then(function(data){
         picture14.push(data.results[1].image)
-        console.log(picture14)
         updatePage14(picture14, name14)
       })
     })
@@ -450,7 +419,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=109")
       .then(function(data){
         picture15.push(data.results[1].image)
-        console.log(picture15)
         updatePage15(picture15, name15)
       })
     })
@@ -460,7 +428,6 @@ function getPlan() {
       $.get(url + "exerciseimage/?exercise=195")
       .then(function(data){
         picture16.push(data.results[0].image)
-        console.log(picture16)
         updatePage16(picture16, name16)
       })
     })
