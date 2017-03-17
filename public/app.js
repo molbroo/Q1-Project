@@ -19,8 +19,8 @@ $(".days-workout").click(function(){
     getPlan()
   }
   days.onchange = populateStorage
-  //If navigate away from index.html, value of days is still stored when navigate back to index.html
-  //If user hits the back button, then getPlan function takes value from local storage
+  // If navigate away from index.html, value of days is still stored when navigate back to index.html
+  // If user hits the back button, then getPlan function takes value from local storage
   // if (window.location.reload()){
   //   days = localStorage.getItem("myDays")
   //   getPlan()
