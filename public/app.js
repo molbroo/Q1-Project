@@ -16,15 +16,19 @@ $(".days-workout").click(function(){
   }
   function populateStorage() {
     localStorage.setItem("myDays", days)
+    $(".brand-logo").click(function(){
+      days = localStorage.getItem("myDays")
+      getPlan()
+    })
     getPlan()
   }
   days.onchange = populateStorage
   // If navigate away from index.html, value of days is still stored when navigate back to index.html
   // If user hits the back button, then getPlan function takes value from local storage
-  $(".brand-logo").click(function(){
-    days = localStorage.getItem("myDays")
-    getPlan()
-  })
+  // $(".brand-logo").click(function(){
+  //   days = localStorage.getItem("myDays")
+  //   getPlan()
+  // })
 
   $(".Day-1").empty()
   $(".Day-2").empty()
